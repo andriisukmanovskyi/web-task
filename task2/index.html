@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>homework1 - task2</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div>
+        <form action="./success.html" method="post">
+            <label>
+                Title:<br>
+                <input type="text" maxlength="25" placeholder="Enter title" required> 
+            </label><br><br>
+            <label>
+                Phone number:<br>
+                <input type="tel" placeholder="Enter phone number" pattern="[0-9]{9,12}" required> 
+            </label><br><br>
+            <label>
+                Issue:<br>
+                <select>
+                    <option>Personal</option>
+                    <option>Business </option>
+                </select>
+            </label><br><br>
+            <label>
+                <input type="checkbox" checked>Call me back 
+            </label><br><br>
+            <label>
+                Description:<br>
+                <textarea placeholder="Enter description" required></textarea>
+            </label><br><br>
+            <input type="submit" value="Submit" formaction="./success.html"><br><br>
+        </form>
+    </div>
+</body>
+</html>
