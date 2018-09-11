@@ -1,0 +1,200 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid #EAEBEC;
+    box-shadow: 0px 1px #EAEBEC;
+    justify-content: space-between;
+    padding: 0px 0px;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+header>p{
+    margin-left: 15px;
+}
+
+ul{
+    margin-right: 15px;
+}
+
+li{
+    display: inline-block;  
+    margin-left: 5px;
+    font-size: 10pt;
+}
+
+header a{
+    text-decoration: none;
+    padding: 1px 4px;
+}
+
+header a:link{
+    color: black;
+}
+
+
+header a:visited{
+    color: black;
+}
+
+
+header a:hover{
+    background-color: #5D9CFC;
+    border-radius: 5px;
+    color: white;
+}
+
+.signUpBtn{
+    border: 1px solid #5D9CFC;
+    padding: 5px;
+    color: #5D9CFC;
+    font-family: Arial, Helvetica, sans-serif;
+    background: none;
+    border-radius: 3px;
+}
+
+.signUpBtn:hover{
+    color: white;
+    background-color: #5D9CFC;
+}
+
+main{
+    width: 50%;
+    border-bottom: 1px solid lightgray;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 4em;
+    border: 0px solid yellow;
+}
+
+section.heading{
+    text-align: center;
+    border: 0px solid green;
+}
+
+section.heading>h1{
+    font-size: 30pt;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+section.heading>p{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: darkslategrey;
+}
+
+section.pricing{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1px 1px;
+    border: 0px solid red;
+}
+
+section.pricing div{
+    border: 2px solid rgba(228, 223, 223, 0.801);
+    width: 30%;
+    padding-bottom: 15px;
+    border-radius: 4px;
+}
+
+section.pricing div>p{
+    font-size: 10pt;
+}
+
+section.pricing span:first-of-type{
+    display: block;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(228, 223, 223, 0.801);
+    background-color: whitesmoke; 
+}
+
+section.pricing span.priceValue{
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+section.pricing span:last-of-type{
+    font-size: 16pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+section.pricing input[type="button"]:not(.signUpBtn){
+    width: 90%;
+    background-color: #277BFC;
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 3px;
+}
+
+section.pricing input[type="button"]:hover:not(.signUpBtn){
+    font-weight: bold;
+    background-color: rgb(20, 84, 148);
+}
+
+section.pricing input[type="button"].signUpBtn{
+    width: 90%;
+    padding: 8px;
+}
+
+footer{
+    width: 50%;
+    margin: auto;
+    padding: 30px 0px;
+    overflow: auto;
+    display: flex;
+}
+
+footer>div:first-child{
+    width: 17%;
+    border: 0px solid black;
+}
+
+footer img{
+    height: 20px;
+}
+
+footer>div:last-child{
+    width: 83%;
+    padding: 0px 40px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer strong{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 11pt;
+    color: black;
+}
+
+footer a{
+    display: block;
+    font-size: 10pt;
+    text-decoration: none;
+}
+
+footer a:link{
+    color: #878787;
+}
+
+footer a:visited{
+    color: #878787;
+}
+  
+footer>div>span{
+    font-size: 8pt;
+    color: #878787;
+}
