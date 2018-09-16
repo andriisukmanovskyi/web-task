@@ -1,0 +1,76 @@
+body{
+    width: 70%;
+    margin: auto;
+    background-color: teal;
+}
+
+main{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#inputDiv{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#taskInput{
+    font-size: 15pt;
+    width: 80%;
+    height: 40px;
+}
+
+#addTaskBtn{
+    font-size: 10pt;
+    width: 20%;
+    height: 40px;
+}
+
+.taskDiv{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: cadetblue;
+}
+
+.taskDiv>p{
+    width: 70%;
+}
+
+.taskDiv>input{
+    width: 10%;
+}
+
+.taskDiv>img{
+    width: 10%;
+}
+
+.taskDiv>div:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+#tasksFooterDiv{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    margin-top: 10px;
+    border: 1px solid mediumspringgreen;
+}
+
+#tasksFooterDiv span{
+    font-size: 10pt;
+}
